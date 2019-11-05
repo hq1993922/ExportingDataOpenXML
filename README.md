@@ -10,15 +10,15 @@
 
 ## Exporting Data using Microsoft Graph, OXML, and SDK Office Add-ins
 
-In this repo you'll find steps to create an application which generates an Excel workbook, modify the application to drive the worksheet generation by data and pin an Excel add-in to that workbook. 
+In this repo you'll find steps to create an application which generates an Excel workbook, modify the application to drive the worksheet generation by data and pin an Excel add-in to that workbook.
 
 ## What the code does
 
-The code is generated initially by the Open XML SDK Productivity Tool. This reflects C# code from a template document. This provides the base from which customizations can be made. 
+The code is generated initially by the Open XML SDK Productivity Tool. This reflects C# code from a template document. This provides the base from which customizations can be made.
 
 The worksheet generation is modified using snippets in this tutorial to build a table from Microsoft Graph generated JSON data.
 
-Finally, the worksheet generation code is modified to "pin" (auto open) an Excel JS add-in to the workbook. 
+Finally, the worksheet generation code is modified to "pin" (auto open) an Excel JS add-in to the workbook.
 
 ![Report Cover](.\assets\report_cover.png)
 ![Report Data Sheet](.\assets\report_data.png)
@@ -38,7 +38,7 @@ Finally, the worksheet generation code is modified to "pin" (auto open) an Excel
 
     `git clone https://github.com/InteropEvents/ExportingDataOpenXML.git`
 
-2. Go to the Tools folder in the repo and run: 
+2. Go to the Tools folder in the repo and run:
 
     `Tools\OpenXMLSDKToolV25.msi`
 
