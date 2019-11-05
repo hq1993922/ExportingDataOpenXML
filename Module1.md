@@ -37,11 +37,11 @@ We will then add that reflected code to a C# .Net Core project and test it to ma
 
 1. Once Visual Studio opens the project, go to the Nuget package manager:
 
-    ![Nuget Package Manager](Assets\nuget_package_manager.png)
+    ![Nuget Package Manager](Assets/nuget_package_manager.png)
 
 1. Browse by searching for "documentformat" and install the latest stable package:
 
-    ![Install Latest Stable Open XML SDK](Assets\documentformatinstall.png)
+    ![Install Latest Stable Open XML SDK](Assets/documentformatinstall.png)
 
     Click "OK" and "I Accept" on next two dialogs to install the package.
 
@@ -49,7 +49,7 @@ We will then add that reflected code to a C# .Net Core project and test it to ma
 
 1. Add a new item to the `reportgenerator` project and choose C# module:
 
-    ![New cs Module](Assets\new_item.png)
+    ![New cs Module](Assets/new_item.png)
 
 1. Name the new item:
 
@@ -57,13 +57,13 @@ We will then add that reflected code to a C# .Net Core project and test it to ma
 
     Like this:
 
-    ![Generator.cs](Assets\generatorcs.png)
+    ![Generator.cs](Assets/generatorcs.png)
 
 1. Open Generator.cs for editing.
 
 1. Select everything but the `using` statements like this:
 
-    ![Delete Initial Code](Assets\select_initial_code.png)
+    ![Delete Initial Code](Assets/select_initial_code.png)
 
 1. Back in the Open XML SDK Productivity Tool, copy the reflected code:
 
@@ -71,7 +71,7 @@ We will then add that reflected code to a C# .Net Core project and test it to ma
 
 1. In Visual Studio, paste to replace the selected code so it looks like this: 
 
-   ![Paste Reflected Code](Assets\paste_reflect_code.png)
+   ![Paste Reflected Code](Assets/paste_reflect_code.png)
 
 1. Replace the following line:
 
@@ -134,7 +134,7 @@ We will then add that reflected code to a C# .Net Core project and test it to ma
 
 1. Open `Project | Properties`
 
-![Project Properties](Assets\project_properties.png)
+![Project Properties](Assets/project_properties.png)
 
 1. In the Debug tab, add the following string to `Application arguments:`
 
@@ -142,7 +142,7 @@ We will then add that reflected code to a C# .Net Core project and test it to ma
 
     So it looks like this:
 
-    ![Debug Argument](Assets\debug_argument.png)
+    ![Debug Argument](Assets/debug_argument.png)
 
 1. Now if you run the project in debug using `Ctrl-F5`, you will see the console windows appear and stay until you hit `Enter`. In the solution directory, you will see the following file:
 
@@ -150,7 +150,7 @@ We will then add that reflected code to a C# .Net Core project and test it to ma
 
 1. Open the workbook with Excel to make sure the `Focus Task Data` worksheet looks like this:
 
-    ![Focus Task Data](Assets\test_report_xlsx_sheet.png)
+    ![Focus Task Data](Assets/test_report_xlsx_sheet.png)
 
 ## Summary
 
