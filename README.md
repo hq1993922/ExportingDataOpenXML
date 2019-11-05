@@ -46,7 +46,7 @@ Finally, the worksheet generation code is modified to "pin" (auto open) an Excel
 
 ## Follow the tutorial
 
-1. Now you are ready to follow the tutorial. Start with [Module 1](module1.md), which walks you through generating the Microsoft Graph data and the initial C# Open XML SDK project.
+1. Now you are ready to follow the tutorial. Start with [Module 1](Module1.md), which walks you through generating the Microsoft Graph data and the initial C# Open XML SDK project.
 
 1. Complete the main tutorial by following [Module 2](module2.md). This will lead you through customizing the code to use the Microsoft Graph data to build the worksheet table.
 
