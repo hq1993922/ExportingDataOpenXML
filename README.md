@@ -20,8 +20,8 @@ The worksheet generation is modified using snippets in this tutorial to build a 
 
 Finally, the worksheet generation code is modified to "pin" (auto open) an Excel JS add-in to the workbook.
 
-![Report Cover](.\assets\report_cover.png)
-![Report Data Sheet](.\assets\report_data.png)
+![Report Cover](Assets\report_cover.png)
+![Report Data Sheet](Assets\report_data.png)
 
 ## Prerequisites
 
