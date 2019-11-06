@@ -38,6 +38,10 @@ Finally, the worksheet generation code is modified to "pin" (auto open) an Excel
 
     `git clone https://github.com/InteropEvents/ExportingDataOpenXML.git`
 
+1. Or, alternatively, download the zip file using the Github `Clone or download` button: 
+
+    ![Download Zipfile](Assets/downloadzip.png)
+
 2. Go to the Tools folder in the repo and run:
 
     `Tools\OpenXMLSDKToolV25.msi`

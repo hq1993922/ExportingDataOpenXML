@@ -82,7 +82,7 @@ We will then add that reflected code to a C# .Net Core project and test it to ma
     With:
 
     ```csharp
-    namespace reportgenerator`
+    namespace reportgenerator
     ```
 
 1. And replace:
