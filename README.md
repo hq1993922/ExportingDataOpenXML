@@ -27,7 +27,7 @@ Finally, the worksheet generation code is modified to "pin" (auto open) an Excel
 
 - Office account tenant for your team
 - Visual Studio (Community is fine)
-    NOTE: Install the [following workloads](Assets/vsinstallworkloads.png) for VS: 
+    - NOTE: Install the [following workloads](Assets/vsinstallworkloads.png) for VS: 
         - .Net desktop development
         - Office/Sharepoint development
         - .Net Core cross-platform development
