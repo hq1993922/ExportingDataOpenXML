@@ -27,6 +27,10 @@ Finally, the worksheet generation code is modified to "pin" (auto open) an Excel
 
 - Office account tenant for your team
 - Visual Studio (Community is fine)
+    NOTE: Install the [following workloads](Assets/vsinstallworkloads.png) for VS: 
+        - .Net desktop development
+        - Office/Sharepoint development
+        - .Net Core cross-platform development
 - Git command line tools
 - Web browser (Chrome or Edge are fine)
 - Open XML SDK Productivity Tool
@@ -34,15 +38,15 @@ Finally, the worksheet generation code is modified to "pin" (auto open) an Excel
 
 ## Get started
 
-1. Start by cloning this whole repository to your local system so you have all the data files, example reports, folders and working solution for reference.
+1. Start by cloning this whole repository to your local system so you have all the data files, example reports, folders and working solution for reference.  Use the Github `Clone or download` button to copy the URL and then issue this command:
 
     `git clone https://github.com/InteropEvents/ExportingDataOpenXML.git`
 
-1. Or, alternatively, download the zip file using the Github `Clone or download` button: 
+1. Or, alternatively, download the zip file using the Github `Clone or download` button:
 
     ![Download Zipfile](Assets/downloadzip.png)
 
-2. Go to the Tools folder in the repo and run:
+1. Go to the Tools folder in the repo and run:
 
     `Tools\OpenXMLSDKToolV25.msi`
 
